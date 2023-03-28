@@ -1,23 +1,23 @@
-# Web Development Project 5 - *Spotify Hack 1.0*
+# Web Development Project 5 - *MUSICINFO*
 
-Submitted by: **Aditya Karki**
+Submitted by: **PRATYUSH KHANAL**
 
-This web app: **A fully responsive web application which uses Spotify Web API to manipulate the data of artists and their albums in the spotify database. It implements advanced features like dashboard layout, filter, and sort based on user's inputs**
+This web app: **A fully responsive web application which uses Spotify Web API to manipulate the data of artists and their albums in the spotify database. **
 
-Time spent: **15** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **The list displays a list of data fetched using an API call**
-- [ ] **Data uses the useEffect React hook and async/await syntax**
-- [ ] **The app dashboard includes at least three summary statistics about the data such as**
-  - [ ] *Artist Popularity Score*
-  - [ ] *Total Albums of the Artist*
-  - [ ] *Range of Tracks covered by each album*
-- [ ] **A search bar allows the user to search for an item in the fetched data**
-- [ ] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
+- [x] **The list displays a list of data fetched using an API call**
+- [x] **Data uses the useEffect React hook and async/await syntax**
+- [x] **The app dashboard includes at least three summary statistics about the data such as**
+  - [x] *Artist Popularity Score*
+  - [x] *Total Albums of the Artist*
+  - [x] *Range of Tracks covered by each album*
+- [x] **A search bar allows the user to search for an item in the fetched data**
+- [x] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
 
 The following **optional** features are implemented:
 
@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 
 ## Video 
 
-https://user-images.githubusercontent.com/68220732/228135037-dc0b529d-3fb5-4c35-965a-d73574b91adf.mp4
+<img src =" ez"
 
 
 <!-- Replace this with whatever GIF tool you used! -->
@@ -42,7 +42,7 @@ GIF created with Wondershare filmora and Imgur.
 
 ## License
 
-    Copyright [2023] [Aditya Karki]
+    Copyright [2023] []
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
