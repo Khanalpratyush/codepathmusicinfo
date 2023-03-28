@@ -21,20 +21,20 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] Multiple filters can be applied simultaneously
-- [ ] Filters use different input types such as a text input, a selection, or a slider
-- [ ] The user can enter specific bounds for filter values
+- [x] Multiple filters can be applied simultaneously
+- [x] Filters use different input types such as a text input, a selection, or a slider
+- [x] The user can enter specific bounds for filter values
 
 The following **additional** features are implemented:
 
-* [ ] A mobile responsive dashboard panel with Glassmorphism design was implemented using media queries
-* [ ] Along with multiple get requests, a post request was also made for user authorization to connect with spotify Web API
-* [ ] Sorting algorithms like Selection sort was used for numerical as well as alphabetical sorting
-* [ ] Original state was preserved using 1 state variable which preserved original data and reset it when filter was not applied
+* [x] A mobile responsive dashboard panel with Glassmorphism design was implemented using media queries
+* [x] Along with multiple get requests, a post request was also made for user authorization to connect with spotify Web API
+* [x] Sorting algorithms like Selection sort was used for numerical as well as alphabetical sorting
+* [x] Original state was preserved using 1 state variable which preserved original data and reset it when filter was not applied
 
 ## Video 
 
-<img src =" ez"
+<img src ="ezgif.com-video-to-gif (5).gif">
 
 
 <!-- Replace this with whatever GIF tool you used! -->
