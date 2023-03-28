@@ -1,0 +1,161 @@
+.App {
+    width: 100%;
+    position: relative;
+    color: rgb(124, 33, 33);
+    padding: 1rem;
+    background-color: #bbb6b6;
+    display: flex;
+  }
+  
+  .left-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(11, 10, 10);
+    height: 10vh;
+    width: 100%;
+    padding: 1rem;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* add this line to center the items vertically */
+  }
+  
+  .form-container form {
+    margin: 0;
+  }
+  
+  .form-text {
+    width: 40px;
+    color: #333;
+    margin-right: 1.5rem;
+  }
+  
+  input,
+  select {
+    padding: 0.2rem;
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 1rem;
+    width: auto; /* increase the width */
+    margin-right: 2rem; /* add some margin to space out the inputs */
+  }
+  
+  .form-submit,
+  button {
+    background-color: #333;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    height: 100%;
+    width: auto;
+    align-self: center;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.6rem;
+  }
+  
+  .form-submit:hover,
+  button:hover {
+    color: #fff;
+    background-color: #555;
+  }
+  
+  .author-title {
+    color: #333;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .songs-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .songs-filter .button {
+    width: 80px;
+  }
+  
+  select {
+    margin: 2rem 0 0 1rem;
+  }
+  
+  .right-panel {
+    width: 70%;
+    margin-left: auto;
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12vh; /* add some margin to push the content below the fixed panel */
+  }
+  .stats-container {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1rem;
+  }
+  
+  .stat-card {
+    height: 80px;
+    width: 180px;
+    margin: 0.5rem 0.75rem;
+    background-color: #fff;
+    padding: 0.75rem;
+    box-shadow: rgba(17, 4, 18, 0.5) 2px 6px 12px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  
+  .album-container {
+    margin-top: 120px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .album-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 25%;
+    background-color: rgba(29, 26, 32, 0.5);
+    margin: 0.75rem;
+    padding: 1rem;
+    box-shadow: rgba(68, 9, 9, 0.5) 0px 4px 12px;
+    border-radius: 10px;
+  }
+  
+.album-card .date{
+    margin: 0 0 1rem 30%;
+}
+
+.album-card img {
+    width: 83%;
+    box-shadow: rgba(88, 14, 14, 0.1) 0px 4px 12px;
+    margin-bottom: 1rem;
+}
+
+.album-card h2{
+    text-transform: capitalize;
+    font-size: 1.25rem;
+}
